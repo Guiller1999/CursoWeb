@@ -1,0 +1,42 @@
+body {
+  background: url(../Img/fondo.jpg);
+  background-attachment: fixed;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  /*background-position: 50% 50%;*/
+}
+
+h1, h2 {
+  color: #ffffff;
+}
+
+a {
+  color: #ffffff;
+}
+
+div.titulo {
+  border-bottom-color: rgb(21, 204, 83);
+  border-bottom-style: groove;
+}
+
+div.parrafo {
+  width: 25em;
+  padding: 2em;
+  margin: 6em 5.8em;
+  border-radius: 6em;
+  border: 5px solid black;
+  background: #5DE2AE;
+  display: inline-block;
+  box-shadow: 2em 2em;
+}
+
+div#negro {
+  background: #000000;
+  color: #ffffff;
+  border: 5px solid #ccd2d5;
+  box-shadow: 2em 2em #ccd2d5;
+}
+
+p {
+  font-size: 1.125em;
+}
