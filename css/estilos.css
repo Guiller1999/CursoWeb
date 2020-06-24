@@ -1,0 +1,21 @@
+body {
+  font-size: 12px;
+}
+
+div {
+  background: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
+  width: 100%;
+}
+
+p {
+  font-size: 1.125rem;
+}
+
+div p {
+  font-size: 1.125em;
+}
+
+h1 {
+  color: aqua;
+}
