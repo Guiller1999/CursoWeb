@@ -1,0 +1,9 @@
+img {
+  float: left;
+  border: 2px solid #000000;
+  margin: 10px 10px 10px 0px;
+}
+
+.clear {
+  clear: both;
+}
