@@ -1,0 +1,26 @@
+html {
+  font-size: 100%; /* 100% = 16px */
+}
+
+div.numero {
+  font-size: 2em; /* 1em = 16px -> 16*2 = 32px */
+  background: #3498db;
+  width: 3.25em; /* 1em = 32px -> 32*2.3 = 73.6px */
+  height: 3.25em; /* 1em = 32px -> 32*2.3 = 73.6px */
+}
+
+h2 {
+  text-align: center;
+  padding-top: .5em; /* 1em = 32px -> 32*0.5 = 16px */
+  color: #ffffff;
+}
+
+.contenedor {
+  /*position: relative;*/
+  width: 6.5em;
+  height: 6.5em;
+  float: left;
+  /*top: -3em;
+  left: 12.5em;
+  */
+}
