@@ -1,0 +1,65 @@
+form {
+  width: 25%;
+  border: 1px solid #ccc;
+  margin: 1.25em auto;
+  padding: 1.25em;
+}
+
+label {
+  font-family: "Times New Roman", serif;
+  font-size: 1.125em;
+  font-style: italic;
+  font-weight: bold;
+  display: block;
+}
+
+input, textarea {
+  font-size: .875em;
+  font-family: "Lucida Bright", serif;
+  margin-bottom: 1.25em;
+  width: 100%;
+  padding: .625em;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+}
+
+input:focus, textarea:focus {
+    outline: none;
+    border-color: #2e86de;
+}
+
+textarea {
+  height: 9.375em;
+  resize: none;
+}
+
+input[type="submit"] {
+  margin-bottom: 0;
+  border: none;
+  color: #fff;
+  background-color: #2e86de;
+}
+
+input[type="submit"]:hover, input[type="submit"]:active {
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background-color: #4A88F4;
+}
+
+input[type="submit"]:active {
+  background-color: #2196F3;
+}
+
+@media (min-width: 320px) and (max-width: 699px) {
+  form {
+    width: 80%;
+  }
+}
+
+@media (min-width: 700px) and (max-width: 1000px) {
+  form {
+    width: 35%;
+  }
+}
