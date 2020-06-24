@@ -1,0 +1,48 @@
+table {
+  /*border: 1px solid #000000;*/
+    border-collapse: collapse;
+    margin: auto;
+}
+
+caption {
+  font-family: "Lucida Bright", serif;
+  font-weight: bold;
+  font-size: 2em;
+}
+
+table th, td {
+  font-family: "Lucida Bright", serif;
+  font-size: 1.2em;
+  border: 1px solid #000000;
+  text-align: center;
+  padding: 1.25em;
+}
+
+table thead {
+  background-color: #ffbe76;
+  font-weight: bold;
+  font-style: italic;
+  color: #ffffff;
+}
+
+table tbody tr:hover {
+  background-color: #f6e58d;
+}
+
+table tbody td:hover {
+  background-color: #353b48;
+  color: #ffffff;
+}
+
+
+@media (min-width: 320px) and (max-width: 600px) {
+
+  table th, td {
+    padding: 10px;
+    font-size: .5em;
+  }
+
+  caption {
+    font-size: 1em;
+  }
+}
