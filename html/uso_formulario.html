@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="robots" content="index, follow">
+    <meta name="description" content="Ejemplo de formularios con css">
+    <meta name="keywords" content="html, css, formularios">
+    <meta name="X-UA-Compatible" content="IE=Edge">
+    <link rel="stylesheet" href="../css/estilos_formulario.css">
+    <title>Formulario con CSS</title>
+  </head>
+
+  <body>
+    <form class="container-form" method="post">
+      <label for="name">Nombre: </label>
+      <input type="text" placeholder="Escriba nombre" id="name" name="name" autocomplete="off" required>
+
+      <label for="email">Email: </label>
+      <input type="email" id="email" placeholder="Escriba email" name="email" autocomplete="off" required>
+
+      <label for="message">Mensaje: </label>
+      <textarea id="message" placeholder="Escriba mensaje" name="message"></textarea>
+
+      <input type="submit" value="Enviar">
+    </form>
+  </body>
+</html>
