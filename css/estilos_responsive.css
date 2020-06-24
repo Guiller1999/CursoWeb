@@ -1,0 +1,99 @@
+body {
+  margin: 0;
+}
+
+header {
+  background-color: #393e46;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+.menu {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.menu li {
+  display: inline-block;
+}
+
+.menu a {
+  display: inline-block;
+  font-size: 1.25em;
+  font-family: "Lucida Bright", serif;
+  padding: .625em 1.25em;
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.container {
+  overflow-x: auto;
+}
+
+table {
+  margin: 1.25em auto;
+  border-collapse: collapse;
+}
+
+h1 {
+  font-size: 1.3em;
+  font-family: "Arial Black", serif;
+  text-align: center;
+}
+
+table tr th, td {
+  font-size: 1.2em;
+  font-family: "Lucida Bright", serif;
+  padding: .625em;
+  text-align: center;
+}
+
+.header-table {
+  background-color: #3498db;
+}
+
+table tbody tr:nth-child(even) {
+  background-color: #ddd;
+}
+
+table .product {
+  position: sticky;
+  left: 0;
+  background-color: #ffffff;
+}
+
+header nav .menu li:hover {
+  background-color: #222831;
+}
+
+table tbody tr td:hover {
+  background-color: #393e46;
+  color: #ffffff;
+}
+
+table tbody tr:hover th:first-child {
+  background-color: #3498db;
+  color: #ffffff;
+}
+
+@media (min-width: 320px) and (max-width: 1300px) {
+  .menu li {
+    display: block;
+  }
+
+  .menu a {
+    font-size: 1em;
+    display: block;
+    text-align: center;
+  }
+
+  h1 {
+    font-size: 1.1em;
+  }
+
+  table tr{
+    font-size: .8em;
+  }
+}
